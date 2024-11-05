@@ -4,7 +4,7 @@ import os
 from sqlalchemy import create_engine, text
 from sqlalchemy.exc import IntegrityError
 app = Flask(__name__)
-uri='postgresql://wf2322:St278-Ahobo$#cGHh@w4111.cisxo09blonu.us-east-1.rds.amazonaws.com/w4111'
+uri=''#put in appropriate postgresql link
 engine=create_engine(uri)
 
 @app.route('/')
